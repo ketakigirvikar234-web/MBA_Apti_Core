@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AptiCore - Login</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="header"><div class="container" style="display:flex;justify-content:space-between;align-items:center"><div><div class="site-title">AptiCore</div><div style="color:#6b7280;font-size:13px">Sign in to access practice tests</div></div><nav class="nav"><a href="about.html">About</a><a href="resources.html">Resources</a></nav></div></header>
+<main class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+  <section class="card">
+    <h3>Login</h3>
+    <form onsubmit="login(event)">
+      <input id="li_username" class="input" placeholder="Username" required>
+      <input id="li_password" type="password" class="input" placeholder="Password" required>
+      <div style="display:flex;gap:10px"><button class="btn" type="submit">Login</button><button type="button" class="btn-outline" onclick="document.getElementById('su_name').focus()">Need an account?</button></div>
+    </form>
+  </section>
+  <section class="card">
+    <h3>Sign up</h3>
+    <form onsubmit="signup(event)">
+      <input id="su_name" class="input" placeholder="Full name">
+      <input id="su_email" class="input" placeholder="Email">
+      <input id="su_username" class="input" placeholder="Choose username" required>
+      <input id="su_password" type="password" class="input" placeholder="Choose password" required>
+      <button class="btn" type="submit">Create account</button>
+    </form>
+  </section>
+</main>
+<footer class="footer">© 2025 AptiCore | Designed by Ketaki Girvikar & Vidya Kakade</footer>
+<script src="js/auth.js"></script><script src="js/main.js"></script></body></html>

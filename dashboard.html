@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard - AptiCore</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="header"><div class="container" style="display:flex;justify-content:space-between;align-items:center"><div><div class="site-title">AptiCore</div><div style="color:#6b7280;font-size:13px">Welcome to your dashboard</div></div><nav class="nav"><a href="dashboard.html">Dashboard</a><a href="resources.html">Resources</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="#" onclick="logout()">Logout</a></nav></div></header>
+<main class="container">
+  <div class="card">
+    <h3>Hello, <span id="user_greet"></span></h3>
+    <p>From here you can access practice tests and view PDFs (view only).</p>
+    <div style="display:flex;gap:10px;margin-top:10px">
+      <a class="btn" href="resources.html">Go to Resources</a>
+      <a class="btn-outline" href="index.html" onclick="logout()">Logout</a>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Your recent attempts</h4>
+    <div id="attempts"></div>
+  </div>
+</main>
+<footer class="footer">© 2025 AptiCore | Designed by Ketaki Girvikar</footer>
+<script src="js/auth.js"></script><script>populateUserUI();(function(){ const cur=JSON.parse(sessionStorage.getItem('apticore_current')||'null'); if(!cur){ location.href='index.html'; return; } const attemptsDiv=document.getElementById('attempts'); const history = JSON.parse(localStorage.getItem('apticore_history_'+cur.username)||'[]'); if(history.length===0){ attemptsDiv.innerHTML='<p style="color:#6b7280'>No attempts yet.</p>'; } else { const ul=document.createElement('ul'); ul.className='user-list'; history.slice(-5).reverse().forEach(h=>{ const li=document.createElement('li'); li.textContent = `${h.topic} — ${h.score}/${h.total} — ${new Date(h.date).toLocaleString()}`; ul.appendChild(li); }); attemptsDiv.appendChild(ul); } })();</script></body></html>

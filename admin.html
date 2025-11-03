@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin - AptiCore</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="header"><div class="container" style="display:flex;justify-content:space-between;align-items:center"><div><div class="site-title">AptiCore - Admin</div><div style="color:#6b7280;font-size:13px">Administrator panel</div></div><nav class="nav"><a href="admin.html">Admin</a><a href="about.html">About</a><a href="resources.html">Resources</a><a href="#" onclick="logout()">Logout</a></nav></div></header>
+<main class="container">
+  <div class="card">
+    <h3>Registered Users</h3>
+    <table class="table" id="users_table">
+      <thead><tr><th>Username</th><th>Name</th><th>Email</th><th>Joined</th><th>Action</th></tr></thead>
+      <tbody id="users_body"></tbody>
+    </table>
+  </div>
+  <div style="margin-top:12px"><button class="btn-outline" onclick="logout()">Logout</button></div>
+</main>
+<footer class="footer">© 2025 AptiCore | Designed by Ketaki Girvikar</footer>
+<script src="js/auth.js"></script><script>(function(){ const cur = JSON.parse(sessionStorage.getItem('apticore_current')||'null'); if(!cur || !cur.isAdmin){ alert('Access denied'); window.location.href='index.html'; return; } const users = JSON.parse(localStorage.getItem('apticore_users')||'[]'); const tbody = document.getElementById('users_body'); if(users.length===0){ tbody.innerHTML = '<tr><td colspan="5" style="color:#6b7280">No registered users.</td></tr>'; return; } users.forEach((u, idx)=>{ const tr = document.createElement('tr'); tr.innerHTML = `<td>${u.username}</td><td>${u.name || '-'}</td><td>${u.email || '-'}</td><td>${new Date(u.joined).toLocaleString()}</td><td><button class="confirm-delete" onclick="deleteUser('${u.username}')">Delete</button></td>`; tbody.appendChild(tr); });})(); function deleteUser(username){ if(username==='admin'){ alert('Admin cannot be deleted'); return; } if(!confirm('Are you sure you want to delete user '+username+'? This action cannot be undone.')) return; let users = JSON.parse(localStorage.getItem('apticore_users')||'[]'); users = users.filter(u=>u.username!==username); localStorage.setItem('apticore_users', JSON.stringify(users)); localStorage.removeItem('apticore_history_'+username); alert('User deleted'); location.reload(); }</script></body></html>

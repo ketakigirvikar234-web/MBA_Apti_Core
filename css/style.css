@@ -1,0 +1,24 @@
+
+:root{--bg:#f7fafc;--card:#ffffff;--muted:#6b7280;--primary:#0b5fff;--accent:#0f172a}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);margin:0;color:var(--accent)}
+.header{background:linear-gradient(90deg,#ffffff,#f1f5f9);border-bottom:1px solid #e6eef6;padding:14px 0}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.site-title{font-weight:700;font-size:22px;color:var(--primary)}
+.nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600}
+.card{background:var(--card);padding:18px;border-radius:10px;border:1px solid #e6eef6;box-shadow:0 6px 18px rgba(15,23,42,0.04);margin-bottom:16px}
+.footer{font-size:13px;color:var(--muted);text-align:center;margin-top:20px;padding:12px 0}
+.btn{display:inline-block;padding:8px 12px;border-radius:8px;border:none;background:var(--primary);color:white;text-decoration:none;font-weight:600}
+.btn-outline{background:transparent;border:1px solid #dbeafe;color:var(--primary);padding:8px 12px;border-radius:8px}
+.grid{display:grid;grid-template-columns:1fr 340px;gap:20px}
+.aside{position:sticky;top:20px}
+.pdf-frame{width:100%;height:520px;border:1px solid #e6eef6;border-radius:8px}
+.input{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;margin-bottom:8px}
+.user-list{list-style:none;padding:0;margin:0}
+.user-list li{padding:10px;border-bottom:1px dashed #eef2ff}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:10px;border-bottom:1px solid #eef2ff;text-align:left}
+.table th{background:#fbfdff}
+.table tr:hover{background:#fbfbff}
+.confirm-delete{color:#b91c1c;background:#fff1f2;border:1px solid #fecaca;padding:6px 8px;border-radius:6px}
+.contact-card{padding:16px;border-radius:10px;border:1px solid #e6eef6;background:var(--card)}

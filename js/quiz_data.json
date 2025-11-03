@@ -1,0 +1,670 @@
+{
+  "quant": [
+    {
+      "q": "If 5x + 3 = 2x + 18, find x.",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "ex": "3x+3=18 \u21d2 3x=15 \u21d2 x=5."
+    },
+    {
+      "q": "A train covers 150 km in 2.5 hours. Average speed?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "65 km/h",
+        "75 km/h"
+      ],
+      "answer": 1,
+      "ex": "150 \u00f7 2.5 = 60 km/h."
+    },
+    {
+      "q": "(12/5) \u00f7 (3/10) = ?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "ex": "(12/5)*(10/3)=120/15=8."
+    },
+    {
+      "q": "Area of circle r=7 (\u03c0=22/7).",
+      "options": [
+        "154 cm\u00b2",
+        "49 cm\u00b2",
+        "308 cm\u00b2",
+        "77 cm\u00b2"
+      ],
+      "answer": 0,
+      "ex": "\u03c0r\u00b2=(22/7)*49=154."
+    },
+    {
+      "q": "20% discount on \u20b92500 sale price?",
+      "options": [
+        "\u20b91500",
+        "\u20b92000",
+        "\u20b92250",
+        "\u20b92400"
+      ],
+      "answer": 1,
+      "ex": "Discount=500 \u2192 Sale=2000."
+    },
+    {
+      "q": "If A:B = 3:4 and A+B=28, find A.",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 1,
+      "ex": "3k+4k=28 \u21d2 k=4 \u21d2 A=12."
+    },
+    {
+      "q": "Solve: 2(y-3)+4=3y-5. y = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "ex": "2y-6+4=3y-5 \u21d2 y=3."
+    },
+    {
+      "q": "Compound interest on 10000 at 5% for 2 yrs = ? (Amount)",
+      "options": [
+        "11000",
+        "11025",
+        "10500",
+        "11500"
+      ],
+      "answer": 1,
+      "ex": "10000*(1.05)**2=11025."
+    },
+    {
+      "q": "If 7x-2=5x+10, x = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "ex": "2x=12 \u21d2 x=6."
+    },
+    {
+      "q": "What is 15% of 240?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "40"
+      ],
+      "answer": 2,
+      "ex": "0.15*240=36."
+    },
+    {
+      "q": "If a:b = 2:3 and b:c = 4:5, what is a:c?",
+      "options": [
+        "8:15",
+        "2:3",
+        "4:5",
+        "8:25"
+      ],
+      "answer": 0,
+      "ex": "Combine ratios to get a:c=8:15."
+    },
+    {
+      "q": "A number increased by 20% becomes 360. Original number?",
+      "options": [
+        "300",
+        "320",
+        "280",
+        "350"
+      ],
+      "answer": 0,
+      "ex": "360/1.2=300."
+    },
+    {
+      "q": "If 5 people can do a job in 12 days, how many days for 3 people?",
+      "options": [
+        "20",
+        "18",
+        "15",
+        "10"
+      ],
+      "answer": 0,
+      "ex": "Total work=60 person-days \u21d2 60/3=20."
+    },
+    {
+      "q": "Find LCM of 12 and 18.",
+      "options": [
+        "36",
+        "72",
+        "54",
+        "30"
+      ],
+      "answer": 0,
+      "ex": "LCM=36."
+    },
+    {
+      "q": "If x^2=81, what is x?",
+      "options": [
+        "9",
+        "-9",
+        "\u00b19",
+        "0"
+      ],
+      "answer": 2,
+      "ex": "x=\u00b19."
+    }
+  ],
+  "verb": [
+    {
+      "q": "Choose correct: Its time to go / It's time to go / Its' time to go",
+      "options": [
+        "Its time to go",
+        "It's time to go",
+        "Its' time to go",
+        "All wrong"
+      ],
+      "answer": 1,
+      "ex": "It's = It is."
+    },
+    {
+      "q": "Fill: She ____ to the store before it closed.",
+      "options": [
+        "go",
+        "went",
+        "gone",
+        "will go"
+      ],
+      "answer": 1,
+      "ex": "Went = past tense."
+    },
+    {
+      "q": "Synonym of 'abundant'",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Tiny",
+        "Rare"
+      ],
+      "answer": 1,
+      "ex": "Plentiful = abundant."
+    },
+    {
+      "q": "Correct: He don't like coffee.",
+      "options": [
+        "He don't like coffee",
+        "He doesn't like coffee",
+        "He not like coffee",
+        "He doesn't likes coffee"
+      ],
+      "answer": 1,
+      "ex": "Use doesn't."
+    },
+    {
+      "q": "One-word: one who writes poems.",
+      "options": [
+        "Writer",
+        "Poet",
+        "Author",
+        "Novelist"
+      ],
+      "answer": 1,
+      "ex": "Poet."
+    },
+    {
+      "q": "Rearrange: always / she / on time / is",
+      "options": [
+        "She is always on time",
+        "Always she is on time",
+        "She always is on time",
+        "Is she always on time"
+      ],
+      "answer": 0,
+      "ex": "She is always on time."
+    },
+    {
+      "q": "Fill: He is good ____ mathematics.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "with"
+      ],
+      "answer": 1,
+      "ex": "Good at."
+    },
+    {
+      "q": "Choose article: ___ university in the city.",
+      "options": [
+        "An",
+        "A",
+        "The",
+        "No article"
+      ],
+      "answer": 1,
+      "ex": "A university."
+    },
+    {
+      "q": "Antonym of 'optimistic'",
+      "options": [
+        "Hopeful",
+        "Pessimistic",
+        "Positive",
+        "Joyful"
+      ],
+      "answer": 1,
+      "ex": "Pessimistic."
+    },
+    {
+      "q": "Part of speech of 'quickly'",
+      "options": [
+        "Noun",
+        "Verb",
+        "Adverb",
+        "Adjective"
+      ],
+      "answer": 2,
+      "ex": "Adverb."
+    },
+    {
+      "q": "Choose: 'Neither of the boys ___ finished.'",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "is"
+      ],
+      "answer": 1,
+      "ex": "Neither takes 'has'."
+    },
+    {
+      "q": "Synonym of 'candid'",
+      "options": [
+        "Secretive",
+        "Frank",
+        "Hostile",
+        "Timid"
+      ],
+      "answer": 1,
+      "ex": "Frank."
+    },
+    {
+      "q": "Fill: She is looking forward ___ the trip.",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "into"
+      ],
+      "answer": 0,
+      "ex": "Look forward to."
+    },
+    {
+      "q": "Choose correct form: She suggested that he ___ earlier.",
+      "options": [
+        "leave",
+        "left",
+        "leaves",
+        "had left"
+      ],
+      "answer": 0,
+      "ex": "Subjunctive 'leave'."
+    },
+    {
+      "q": "One-word for 'fear of confined spaces'",
+      "options": [
+        "Agoraphobia",
+        "Claustrophobia",
+        "Acrophobia",
+        "Xenophobia"
+      ],
+      "answer": 1,
+      "ex": "Claustrophobia."
+    }
+  ],
+  "data": [
+    {
+      "q": "Total annual sales for Product A? (40,50,45,60)",
+      "options": [
+        "185",
+        "190",
+        "195",
+        "200"
+      ],
+      "answer": 2,
+      "ex": "Sum = 195."
+    },
+    {
+      "q": "Quarter with highest combined sales?",
+      "options": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "answer": 3,
+      "ex": "Q4 combined = 130."
+    },
+    {
+      "q": "Percentage growth of A from Q1 to Q4",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "30%"
+      ],
+      "answer": 1,
+      "ex": "(60-40)/40=50%."
+    },
+    {
+      "q": "Average sales of B per quarter",
+      "options": [
+        "60",
+        "62.5",
+        "65",
+        "55"
+      ],
+      "answer": 1,
+      "ex": "(55+60+65+70)/4=62.5."
+    },
+    {
+      "q": "Q1 target if 10% increase over Q4 (A)",
+      "options": [
+        "64",
+        "66",
+        "68",
+        "70"
+      ],
+      "answer": 1,
+      "ex": "60*1.10=66."
+    },
+    {
+      "q": "Combined sales in Q2?",
+      "options": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "answer": 1,
+      "ex": "50+60=110."
+    },
+    {
+      "q": "Difference between Q4 and Q1 combined sales",
+      "options": [
+        "35",
+        "30",
+        "25",
+        "20"
+      ],
+      "answer": 0,
+      "ex": "130-95=35."
+    },
+    {
+      "q": "If B's Q3 increases by 5%, new value? (65)",
+      "options": [
+        "67.25",
+        "68.25",
+        "69.25",
+        "70.25"
+      ],
+      "answer": 1,
+      "ex": "65*1.05=68.25."
+    },
+    {
+      "q": "Total combined annual sales for A and B?",
+      "options": [
+        "435",
+        "445",
+        "455",
+        "465"
+      ],
+      "answer": 1,
+      "ex": "A=195,B=250 => 445."
+    },
+    {
+      "q": "Average quarterly combined sales?",
+      "options": [
+        "100",
+        "105",
+        "110",
+        "111.25"
+      ],
+      "answer": 3,
+      "ex": "445/4=111.25."
+    },
+    {
+      "q": "If Product B grows by 10% each quarter from 70, value after 2 quarters?",
+      "options": [
+        "84",
+        "77",
+        "87.1",
+        "92.4"
+      ],
+      "answer": 0,
+      "ex": "70*1.1*1.1=84.7 \u224884."
+    },
+    {
+      "q": "What percent of total combined is Product A?",
+      "options": [
+        "43.8%",
+        "46%",
+        "40%",
+        "50%"
+      ],
+      "answer": 0,
+      "ex": "195/445\u224843.8%."
+    },
+    {
+      "q": "If Q3 A (45) increases by 20%, new value?",
+      "options": [
+        "54",
+        "53",
+        "50",
+        "55"
+      ],
+      "answer": 0,
+      "ex": "45*1.2=54."
+    },
+    {
+      "q": "Average combined for two quarters? (111.25 avg)",
+      "options": [
+        "222.5",
+        "225",
+        "220",
+        "230"
+      ],
+      "answer": 0,
+      "ex": "111.25*2=222.5."
+    },
+    {
+      "q": "Average of first two quarters of B (55,60)?",
+      "options": [
+        "57.5",
+        "60",
+        "55",
+        "58"
+      ],
+      "answer": 0,
+      "ex": "(55+60)/2=57.5."
+    }
+  ],
+  "logic": [
+    {
+      "q": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined",
+        "Always"
+      ],
+      "answer": 2,
+      "ex": "Can't conclude."
+    },
+    {
+      "q": "If B is at left end, A is third to right of B, where is A?",
+      "options": [
+        "2nd from left",
+        "3rd from left",
+        "4th from left",
+        "Rightmost"
+      ],
+      "answer": 2,
+      "ex": "4th from left."
+    },
+    {
+      "q": "Next number: 2,6,12,20,?",
+      "options": [
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "answer": 2,
+      "ex": "Next = 30."
+    },
+    {
+      "q": "Is 'Some managers are remote workers' true?",
+      "options": [
+        "True",
+        "False",
+        "Cannot be determined",
+        "Always false"
+      ],
+      "answer": 2,
+      "ex": "Undetermined."
+    },
+    {
+      "q": "Ravi < Sunil and Ravi > Neha. Who scored 90?",
+      "options": [
+        "Neha",
+        "Ravi",
+        "Sunil",
+        "Cannot tell"
+      ],
+      "answer": 1,
+      "ex": "Ravi = 90."
+    },
+    {
+      "q": "Odd one out: CAT, DOG, ELEPHANT, BIRD?",
+      "options": [
+        "CAT",
+        "DOG",
+        "ELEPHANT",
+        "BIRD"
+      ],
+      "answer": 2,
+      "ex": "Elephant not common pet."
+    },
+    {
+      "q": "If two statements are mutually exclusive, can both be true?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "answer": 1,
+      "ex": "No."
+    },
+    {
+      "q": "Sequence: 3,5,9,17,?",
+      "options": [
+        "31",
+        "33",
+        "35",
+        "37"
+      ],
+      "answer": 1,
+      "ex": "Next = 33."
+    },
+    {
+      "q": "If today is Monday, day after 100 days?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 0,
+      "ex": "Wednesday."
+    },
+    {
+      "q": "Syllogism: All A are B. All B are C. Are all A C?",
+      "options": [
+        "Yes",
+        "No",
+        "Only some",
+        "Cannot tell"
+      ],
+      "answer": 0,
+      "ex": "Yes."
+    },
+    {
+      "q": "Find next in series: 1,1,2,3,5,?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "answer": 0,
+      "ex": "Fibonacci => 8."
+    },
+    {
+      "q": "If two trains increase speed, time to meet?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "answer": 0,
+      "ex": "Yes, they'll meet sooner."
+    },
+    {
+      "q": "Which statement true: 'All cats are mammals' & 'Some mammals are cats'",
+      "options": [
+        "Both true",
+        "Contradiction",
+        "Only first true",
+        "Only second true"
+      ],
+      "answer": 0,
+      "ex": "Both can be true."
+    },
+    {
+      "q": "If A left of B and C right of D, can we deduce order?",
+      "options": [
+        "No",
+        "Yes",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "answer": 0,
+      "ex": "Not enough info."
+    },
+    {
+      "q": "If all X are Y and some Y are Z, then some X are Z?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "answer": 2,
+      "ex": "Sometimes - not guaranteed."
+    }
+  ]
+}

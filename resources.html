@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Resources - AptiCore</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="header"><div class="container" style="display:flex;justify-content:space-between;align-items:center"><div><div class="site-title">AptiCore</div><div style="color:#6b7280;font-size:13px">Practice materials</div></div><nav class="nav"><a href="dashboard.html">Dashboard</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="#" onclick="logout()">Logout</a></nav></div></header>
+<main class="container grid">
+  <div>
+    <section class="card">
+      <h3>Practice PDFs (View only)</h3>
+      <p>Select a PDF to view within the page. Download option has been intentionally removed.</p>
+      <ul class="user-list">
+        <li><span>Quantitative Aptitude</span> <span><a class="btn-outline" href="#" onclick="openPdf('pdfs/quant.pdf')">View</a> <a class="btn" href="quiz.html?topic=quant">Practice</a></span></li>
+        <li><span>Verbal Ability</span> <span><a class="btn-outline" href="#" onclick="openPdf('pdfs/verb.pdf')">View</a> <a class="btn" href="quiz.html?topic=verb">Practice</a></span></li>
+        <li><span>Data Interpretation</span> <span><a class="btn-outline" href="#" onclick="openPdf('pdfs/data.pdf')">View</a> <a class="btn" href="quiz.html?topic=data">Practice</a></span></li>
+        <li><span>Logical Reasoning</span> <span><a class="btn-outline" href="#" onclick="openPdf('pdfs/logic.pdf')">View</a> <a class="btn" href="quiz.html?topic=logic">Practice</a></span></li>
+      </ul>
+    </section>
+    <section class="card">
+      <h3>Notes</h3>
+      <p>Practice tests are interactive. After submission you will see your score and detailed explanations.</p>
+    </section>
+  </div>
+  <aside class="aside card">
+    <h4>Preview</h4>
+    <iframe id="pdf_viewer" class="pdf-frame"></iframe>
+  </aside>
+</main>
+<footer class="footer">© 2025 AptiCore | Designed by Ketaki Girvikar</footer>
+<script>function openPdf(path){ document.getElementById('pdf_viewer').src = path; }</script>
+<script src="js/auth.js"></script><script> (function(){ const cur=JSON.parse(sessionStorage.getItem('apticore_current')||'null'); if(!cur){ location.href='index.html'; } })();</script>
+</body></html>
